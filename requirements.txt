@@ -1,0 +1,10 @@
+# Core (required for default offline mode)
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+
+# Optional (live mode with Claude extraction)
+# Uncomment if you plan to run --live with ANTHROPIC_API_KEY:
+# anthropic>=0.39.0
+
+# Test runner (optional — tests also run as plain scripts)
+# pytest>=7.0
