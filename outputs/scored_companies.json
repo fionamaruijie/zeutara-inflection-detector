@@ -1,0 +1,469 @@
+[
+  {
+    "company_name": "Vellum",
+    "company_url": "https://example-vellum.com",
+    "funding_announcement_url": "https://example-press.com/vellum-series-a",
+    "notes": "B2B SaaS revenue operating platform. Closed Series A round of $14M in March 2026. Hiring first Head of Sales and a Head of Revenue Operations. Team of 38 people. Founder Maya Park still owns enterprise sales. Moving up-market into mid-market and Fortune 1000 logistics customers.",
+    "signals": {
+      "recent_funding": true,
+      "funding_age_months": null,
+      "hiring_first_gtm_leader": true,
+      "hiring_operations_role": true,
+      "founder_led_sales_signal": false,
+      "enterprise_expansion_signal": true,
+      "multiple_open_gtm_roles": false,
+      "board_or_investor_pressure": false,
+      "no_b2b_revenue_motion": false,
+      "local_smb_only": false,
+      "mature_revops_in_place": false,
+      "operating_partner_already_engaged": false,
+      "competitor_advisory_engaged": false,
+      "mid_fundraise": false,
+      "raise_too_old": false,
+      "purely_technical_founder_no_gtm": false,
+      "investor_has_platform_team": false,
+      "estimated_stage": "series_a",
+      "sector": null,
+      "business_model": "B2B",
+      "headcount_estimate": 38,
+      "headquarters_region": null,
+      "sources_used": [
+        "Bundled sample homepage (synthesized for Vellum)",
+        "Synthesized funding announcement for Vellum"
+      ],
+      "data_freshness_days": null,
+      "source_confidence": "medium"
+    },
+    "evidence": [
+      {
+        "signal": "b2b_revenue_motion",
+        "snippet": "from analyst notes. Run with --live for real HTTP fetches.) B2B SaaS revenue operating platform. Closed Series A round of $",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "medium"
+      },
+      {
+        "signal": "hiring_first_gtm_leader",
+        "snippet": ". Closed Series A round of $14M in March 2026. Hiring first Head of Sales and a Head of Revenue Operations. Team of 38 people. Founde",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "medium"
+      },
+      {
+        "signal": "hiring_operations_role",
+        "snippet": "und of $14M in March 2026. Hiring first Head of Sales and a Head of Revenue Operations. Team of 38 people. Founder Maya Park still owns enterprise",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "medium"
+      },
+      {
+        "signal": "enterprise_expansion_signal",
+        "snippet": "Operations. Team of 38 people. Founder Maya Park still owns enterprise sales. Moving up-market into mid-market and Fortune 1000 lo",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "medium"
+      },
+      {
+        "signal": "recent_funding",
+        "snippet": "Funding announcement provided as input.",
+        "source_url": "(funding announcement page)",
+        "confidence": "high"
+      }
+    ],
+    "inflection_score": 80,
+    "confidence_score": 66,
+    "disqualifier_penalty": 0,
+    "reason_codes": [
+      "stage_fit: estimated stage = series_a",
+      "b2b_revenue_motion_detected",
+      "headcount_in_band: ~38",
+      "recent_funding_signal",
+      "hiring_first_gtm_leader_signal (strong)",
+      "hiring_operations_role_signal",
+      "enterprise_expansion_signal"
+    ],
+    "route": "warm_intro_candidate",
+    "primary_structural_constraint": "gtm_leader_transition",
+    "suggested_buyer_path": "Forwardable investor brief \u2014 to lead investor partner, who introduces to founder/CEO.",
+    "recommended_outreach_angle": "The first head of sales fails 60%+ of the time. The deciding variable is the operating architecture they inherit on day one, not the hire.",
+    "discovery_questions": [
+      "How are you measuring the first 90 days of the new GTM hire?",
+      "What does the pipeline review cadence look like once the hire starts?",
+      "What is the agreed split of accountability between you and them?"
+    ],
+    "brief_path": "outputs/briefs/vellum_brief.md",
+    "extraction_mode": "rule_based"
+  },
+  {
+    "company_name": "Northbeam Cloud",
+    "company_url": "https://example-northbeam.com",
+    "funding_announcement_url": null,
+    "notes": "B2B infrastructure / developer platform. Recently closed seed round of $6M. Hiring first VP of Sales and a Chief of Staff. Team of 22. Founder-led pipeline. Targeting enterprise developer teams.",
+    "signals": {
+      "recent_funding": false,
+      "funding_age_months": null,
+      "hiring_first_gtm_leader": true,
+      "hiring_operations_role": true,
+      "founder_led_sales_signal": true,
+      "enterprise_expansion_signal": true,
+      "multiple_open_gtm_roles": false,
+      "board_or_investor_pressure": false,
+      "no_b2b_revenue_motion": false,
+      "local_smb_only": false,
+      "mature_revops_in_place": false,
+      "operating_partner_already_engaged": false,
+      "competitor_advisory_engaged": false,
+      "mid_fundraise": false,
+      "raise_too_old": false,
+      "purely_technical_founder_no_gtm": false,
+      "investor_has_platform_team": false,
+      "estimated_stage": "seed",
+      "sector": null,
+      "business_model": "B2B",
+      "headcount_estimate": 22,
+      "headquarters_region": null,
+      "sources_used": [
+        "Bundled sample homepage (synthesized for Northbeam Cloud)"
+      ],
+      "data_freshness_days": null,
+      "source_confidence": "low"
+    },
+    "evidence": [
+      {
+        "signal": "b2b_revenue_motion",
+        "snippet": "from analyst notes. Run with --live for real HTTP fetches.) B2B infrastructure / developer platform. Recently closed seed r",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "medium"
+      },
+      {
+        "signal": "hiring_first_gtm_leader",
+        "snippet": "r platform. Recently closed seed round of $6M. Hiring first VP of Sales and a Chief of Staff. Team of 22. Founder-led pipeline. Tar",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "medium"
+      },
+      {
+        "signal": "hiring_operations_role",
+        "snippet": "ly closed seed round of $6M. Hiring first VP of Sales and a Chief of Staff. Team of 22. Founder-led pipeline. Targeting enterprise dev",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "medium"
+      },
+      {
+        "signal": "founder_led_sales_signal",
+        "snippet": "Hiring first VP of Sales and a Chief of Staff. Team of 22. Founder-led pipeline. Targeting enterprise developer teams.",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "medium"
+      },
+      {
+        "signal": "enterprise_expansion_signal",
+        "snippet": "Chief of Staff. Team of 22. Founder-led pipeline. Targeting enterprise developer teams.",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "medium"
+      }
+    ],
+    "inflection_score": 78,
+    "confidence_score": 48,
+    "disqualifier_penalty": 0,
+    "reason_codes": [
+      "stage_fit: estimated stage = seed",
+      "b2b_revenue_motion_detected",
+      "headcount_in_band: ~22",
+      "hiring_first_gtm_leader_signal (strong)",
+      "hiring_operations_role_signal",
+      "founder_led_sales_signal",
+      "enterprise_expansion_signal"
+    ],
+    "route": "watchlist",
+    "primary_structural_constraint": "gtm_leader_transition",
+    "suggested_buyer_path": "No outreach yet \u2014 track the inflection signals quarterly until the window opens (typically next funding milestone or first GTM hire).",
+    "recommended_outreach_angle": "(track quarterly until next inflection event)",
+    "discovery_questions": [],
+    "brief_path": "outputs/briefs/northbeam_cloud_brief.md",
+    "extraction_mode": "rule_based"
+  },
+  {
+    "company_name": "LocalBites Cafe",
+    "company_url": "https://example-localbites.com",
+    "funding_announcement_url": null,
+    "notes": "Family-owned local cafe serving the Brooklyn neighborhood area. Brick-and-mortar only. No B2B revenue motion.",
+    "signals": {
+      "recent_funding": false,
+      "funding_age_months": null,
+      "hiring_first_gtm_leader": false,
+      "hiring_operations_role": false,
+      "founder_led_sales_signal": false,
+      "enterprise_expansion_signal": false,
+      "multiple_open_gtm_roles": false,
+      "board_or_investor_pressure": false,
+      "no_b2b_revenue_motion": true,
+      "local_smb_only": true,
+      "mature_revops_in_place": false,
+      "operating_partner_already_engaged": false,
+      "competitor_advisory_engaged": false,
+      "mid_fundraise": false,
+      "raise_too_old": false,
+      "purely_technical_founder_no_gtm": false,
+      "investor_has_platform_team": false,
+      "estimated_stage": "unknown",
+      "sector": null,
+      "business_model": null,
+      "headcount_estimate": null,
+      "headquarters_region": null,
+      "sources_used": [
+        "Bundled sample homepage (synthesized for LocalBites Cafe)"
+      ],
+      "data_freshness_days": null,
+      "source_confidence": "low"
+    },
+    "evidence": [
+      {
+        "signal": "no_b2b_revenue_motion",
+        "snippet": "B2B language present but explicitly negated in source.",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "low"
+      },
+      {
+        "signal": "local_smb_only",
+        "snippet": "from analyst notes. Run with --live for real HTTP fetches.) Family-owned local cafe serving the Brooklyn neighborhood area. Brick-an",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "medium"
+      }
+    ],
+    "inflection_score": 0,
+    "confidence_score": 30,
+    "disqualifier_penalty": -80,
+    "reason_codes": [
+      "disqualifier_SEVERE: no_b2b_revenue_motion (-45)",
+      "disqualifier_SEVERE: local_smb_only (-35)"
+    ],
+    "route": "disqualified",
+    "primary_structural_constraint": "operational_complexity_growth",
+    "suggested_buyer_path": "Do not pursue. Reason codes above explain the disqualifier.",
+    "recommended_outreach_angle": "(no outreach \u2014 severe disqualifier present)",
+    "discovery_questions": [],
+    "brief_path": "outputs/briefs/localbites_cafe_brief.md",
+    "extraction_mode": "rule_based"
+  },
+  {
+    "company_name": "QuietPaths AI",
+    "company_url": "https://example-quietpaths.com",
+    "funding_announcement_url": null,
+    "notes": "Pre-seed AI research lab. No commercial product yet. Building a consumer companion app. No B2B revenue motion. Founder is a PhD researcher with no GTM background.",
+    "signals": {
+      "recent_funding": false,
+      "funding_age_months": null,
+      "hiring_first_gtm_leader": false,
+      "hiring_operations_role": false,
+      "founder_led_sales_signal": false,
+      "enterprise_expansion_signal": false,
+      "multiple_open_gtm_roles": false,
+      "board_or_investor_pressure": false,
+      "no_b2b_revenue_motion": true,
+      "local_smb_only": false,
+      "mature_revops_in_place": false,
+      "operating_partner_already_engaged": false,
+      "competitor_advisory_engaged": false,
+      "mid_fundraise": false,
+      "raise_too_old": false,
+      "purely_technical_founder_no_gtm": false,
+      "investor_has_platform_team": false,
+      "estimated_stage": "pre_seed",
+      "sector": null,
+      "business_model": null,
+      "headcount_estimate": null,
+      "headquarters_region": null,
+      "sources_used": [
+        "Bundled sample homepage (synthesized for QuietPaths AI)"
+      ],
+      "data_freshness_days": null,
+      "source_confidence": "low"
+    },
+    "evidence": [
+      {
+        "signal": "no_b2b_revenue_motion",
+        "snippet": "B2B language present but explicitly negated in source.",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "low"
+      }
+    ],
+    "inflection_score": 0,
+    "confidence_score": 24,
+    "disqualifier_penalty": -45,
+    "reason_codes": [
+      "stage_fit_partial: pre-seed (in eligible band, lower weight)",
+      "disqualifier_SEVERE: no_b2b_revenue_motion (-45)"
+    ],
+    "route": "disqualified",
+    "primary_structural_constraint": "operational_complexity_growth",
+    "suggested_buyer_path": "Do not pursue. Reason codes above explain the disqualifier.",
+    "recommended_outreach_angle": "(no outreach \u2014 severe disqualifier present)",
+    "discovery_questions": [],
+    "brief_path": "outputs/briefs/quietpaths_ai_brief.md",
+    "extraction_mode": "rule_based"
+  },
+  {
+    "company_name": "Helio Logistics",
+    "company_url": "https://example-helio.com",
+    "funding_announcement_url": null,
+    "notes": "B2B logistics platform. Closed Series A 4 months ago. Strong enterprise customer base. Recently announced our fractional COO Sarah Kim has joined to scale operations. Team of 60.",
+    "signals": {
+      "recent_funding": false,
+      "funding_age_months": null,
+      "hiring_first_gtm_leader": false,
+      "hiring_operations_role": true,
+      "founder_led_sales_signal": false,
+      "enterprise_expansion_signal": true,
+      "multiple_open_gtm_roles": false,
+      "board_or_investor_pressure": false,
+      "no_b2b_revenue_motion": false,
+      "local_smb_only": false,
+      "mature_revops_in_place": false,
+      "operating_partner_already_engaged": true,
+      "competitor_advisory_engaged": false,
+      "mid_fundraise": false,
+      "raise_too_old": false,
+      "purely_technical_founder_no_gtm": false,
+      "investor_has_platform_team": false,
+      "estimated_stage": "series_a",
+      "sector": null,
+      "business_model": "B2B",
+      "headcount_estimate": 60,
+      "headquarters_region": null,
+      "sources_used": [
+        "Bundled sample homepage (synthesized for Helio Logistics)"
+      ],
+      "data_freshness_days": null,
+      "source_confidence": "low"
+    },
+    "evidence": [
+      {
+        "signal": "b2b_revenue_motion",
+        "snippet": "from analyst notes. Run with --live for real HTTP fetches.) B2B logistics platform. Closed Series A 4 months ago. Strong en",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "medium"
+      },
+      {
+        "signal": "hiring_operations_role",
+        "snippet": "enterprise customer base. Recently announced our fractional COO Sarah Kim has joined to scale operations. Team of 60.",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "medium"
+      },
+      {
+        "signal": "enterprise_expansion_signal",
+        "snippet": "2B logistics platform. Closed Series A 4 months ago. Strong enterprise customer base. Recently announced our fractional COO Sarah",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "medium"
+      },
+      {
+        "signal": "operating_partner_already_engaged",
+        "snippet": "go. Strong enterprise customer base. Recently announced our fractional COO Sarah Kim has joined to scale operations. Team of 60.",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "medium"
+      }
+    ],
+    "inflection_score": 5,
+    "confidence_score": 42,
+    "disqualifier_penalty": -45,
+    "reason_codes": [
+      "stage_fit: estimated stage = series_a",
+      "b2b_revenue_motion_detected",
+      "headcount_in_band: ~60",
+      "hiring_operations_role_signal",
+      "enterprise_expansion_signal",
+      "disqualifier_SEVERE: operating_partner_already_engaged (-45)"
+    ],
+    "route": "disqualified",
+    "primary_structural_constraint": "enterprise_motion_emerging",
+    "suggested_buyer_path": "Do not pursue. Reason codes above explain the disqualifier.",
+    "recommended_outreach_angle": "(no outreach \u2014 severe disqualifier present)",
+    "discovery_questions": [],
+    "brief_path": "outputs/briefs/helio_logistics_brief.md",
+    "extraction_mode": "rule_based"
+  },
+  {
+    "company_name": "Mavros Health",
+    "company_url": "https://example-mavros.com",
+    "funding_announcement_url": "https://example-press.com/mavros-seed",
+    "notes": "B2B healthtech SaaS. Seed-stage with $4M raised from Andreessen Horowitz (a16z) and Founders Fund. Hiring first head of sales. Team of 18. Founder-led sales motion.",
+    "signals": {
+      "recent_funding": true,
+      "funding_age_months": null,
+      "hiring_first_gtm_leader": true,
+      "hiring_operations_role": false,
+      "founder_led_sales_signal": true,
+      "enterprise_expansion_signal": false,
+      "multiple_open_gtm_roles": false,
+      "board_or_investor_pressure": false,
+      "no_b2b_revenue_motion": false,
+      "local_smb_only": false,
+      "mature_revops_in_place": false,
+      "operating_partner_already_engaged": false,
+      "competitor_advisory_engaged": false,
+      "mid_fundraise": false,
+      "raise_too_old": false,
+      "purely_technical_founder_no_gtm": false,
+      "investor_has_platform_team": true,
+      "estimated_stage": "seed",
+      "sector": null,
+      "business_model": "B2B",
+      "headcount_estimate": 18,
+      "headquarters_region": null,
+      "sources_used": [
+        "Bundled sample homepage (synthesized for Mavros Health)",
+        "Synthesized funding announcement for Mavros Health"
+      ],
+      "data_freshness_days": null,
+      "source_confidence": "medium"
+    },
+    "evidence": [
+      {
+        "signal": "b2b_revenue_motion",
+        "snippet": "from analyst notes. Run with --live for real HTTP fetches.) B2B healthtech SaaS. Seed-stage with $4M raised from Andreessen",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "medium"
+      },
+      {
+        "signal": "recent_funding",
+        "snippet": "or real HTTP fetches.) B2B healthtech SaaS. Seed-stage with $4M raised from Andreessen Horowitz (a16z) and Founders Fund. Hiring f",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "medium"
+      },
+      {
+        "signal": "hiring_first_gtm_leader",
+        "snippet": "Andreessen Horowitz (a16z) and Founders Fund. Hiring first head of sales. Team of 18. Founder-led sales motion. Mavros Health fundi",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "medium"
+      },
+      {
+        "signal": "founder_led_sales_signal",
+        "snippet": "and Founders Fund. Hiring first head of sales. Team of 18. Founder-led sales motion. Mavros Health funding announcement (offline-mode s",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "medium"
+      },
+      {
+        "signal": "investor_has_platform_team",
+        "snippet": "Company is backed by 'founders fund', which runs an in-house operating/platform team.",
+        "source_url": "sample_inputs/sample_company_page.html",
+        "confidence": "high"
+      }
+    ],
+    "inflection_score": 60,
+    "confidence_score": 66,
+    "disqualifier_penalty": -15,
+    "reason_codes": [
+      "stage_fit: estimated stage = seed",
+      "b2b_revenue_motion_detected",
+      "headcount_in_band: ~18",
+      "recent_funding_signal",
+      "hiring_first_gtm_leader_signal (strong)",
+      "founder_led_sales_signal",
+      "disqualifier_soft: investor_has_platform_team (-15)"
+    ],
+    "route": "direct_outreach_candidate",
+    "primary_structural_constraint": "gtm_leader_transition",
+    "suggested_buyer_path": "Direct founder brief \u2014 to founder/CEO, with co-founder cc'd if visible.",
+    "recommended_outreach_angle": "The first head of sales fails 60%+ of the time. The deciding variable is the operating architecture they inherit on day one, not the hire.",
+    "discovery_questions": [
+      "How are you measuring the first 90 days of the new GTM hire?",
+      "What does the pipeline review cadence look like once the hire starts?",
+      "What is the agreed split of accountability between you and them?"
+    ],
+    "brief_path": "outputs/briefs/mavros_health_brief.md",
+    "extraction_mode": "rule_based"
+  }
+]
